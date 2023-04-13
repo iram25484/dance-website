@@ -1,0 +1,22 @@
+//- copy paste layout.pug section from pug template 
+doctype html
+html
+  head
+    title iram dance academy
+    block scripts
+    block style   
+  body
+    nav#navbar.top
+         ul
+            div#logo
+                img(src="static/360_F_125003457_fTjXTDMsJpAltUL4xDumhfzVYynzRMhx.jpg", alt="", height=42)
+                | HDR
+            li #[a(href ="/")  home]
+            li #[a(href ="/") about] 
+            li #[a(href ="/contact") contact us] 
+            li #[a(href ="/") class info] 
+    block content 
+    footer#footer
+        | Copyrights  &copy; dance academy.com | All rights reserved    
+        
+    //-  bcz we want footer to be same everywhere

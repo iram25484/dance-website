@@ -1,0 +1,60 @@
+//- go to doctype in pug and copy paste 
+
+doctype html
+html
+  head
+    title iram dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+         ul
+            div#logo
+                img(src="static/360_F_125003457_fTjXTDMsJpAltUL4xDumhfzVYynzRMhx.jpg", alt="", height=42)
+                | HDR
+            li #[a(href ="/")  home]
+            li #[a(href ="/") about] 
+            li #[a(href ="/") contact us] 
+            li #[a(href ="/") class info] 
+            //- use alt+shift drag cursor down for multi cursor
+
+    section#introSection 
+        div welcome to our dance academy 
+        div.small eat sleep dance repeat 
+        
+    section#missionSection
+          h2 our mission 
+    div.card
+           h3 perfection
+           div.card-box
+               div.card-img
+                        img(src="static/morgan-petroski-LsMxdW1zWEQ-unsplash.jpg", alt="",height=300,width=300)
+               div.card-content
+                  p best academy to join         
+    div.card
+           h3 determination   
+           div.card-box
+               div.card-img
+                        img(src="static/olivia-bauso-nKWXb8EGzO0-unsplash.jpg", alt="",height=300,width=300)
+               div.card-content
+                  p dance the way you like
+    div.card
+           h3 stardom 
+           div.card-box
+               div.card-img
+                        img(src="static/david-hofmann-XmD4gx8jsXE-unsplash.jpg", alt="",height=300,width=300)
+               div.card-content
+                  p passion is all you need         
+    section#sponsorsSection 
+        h3 our sponsors
+        div#sponsors
+        img(src="static/rubaitul-azad-iL7jxeQvFu8-unsplash.jpg", alt="",class="spimages",height=150,width=150) 
+        img(src="static/trac-vu-Yut0WQE3jzs-unsplash.jpg", alt="",class="spimages",height=150,width=150)              
+        img(src="static/turag-photography-1uQe5BIiH8w-unsplash.jpg", alt="",class="spimages",height=150,width=150)              
+        img(src="static/scott-webb-bmmcfZqSjBU-unsplash.jpg", alt="",class="spimages",height=150,width=150)              
+
+    footer#footer
+        | Copyrights  &copy; dance academy.com|All rights reserved    
+    script
+      include ../static/index.js  
+      //-   play nodemon

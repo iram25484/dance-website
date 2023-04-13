@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+*{
+    /* resetting will remove the side gaps and is a good thing to do */
+margin:0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;  /* to help the text in introsec to come one below other */
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 40px;
+    align-items: center;
+     background: center/cover no-repeat url("/static/ahmad-odeh-KHipnBn7sdY-unsplash.jpg") ; /* you can take referce of syntax for image and its sizing from goole writing background image in html */
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;  
+}
+
+#logo{
+     display: flex;
+     color: white;
+     align-items: center;
+     margin: 13px 14px;
+}
+
+
+    /* you can use filter: invert(1); to convert black into white */
+
+
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+    padding: 12px 206px;
+    margin: auto;
+}
+
+.card
+{
+   border: 2px solid red;
+   border-radius: 10px;
+   width: 30%;
+   margin:20px;
+   height: 350px;
+   display: inline-block;
+   text-align: center;
+}
+
+/* this can bring the text in the right side of the image */
+
+/* .card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.cont
+{
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+   align-items: center;
+}
+
+#sponsorsSection h3{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Delicious Handrawn', cursive;
+   
+}
+
+#sponsors {
+    
+    padding: 6px 500px;
+   
+}
+
+   
+
+ 
+.spimages{
+    padding: 10px 10px;
+    
+}
+
+
+#footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 39px;
+}
+
