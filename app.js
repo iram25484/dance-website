@@ -59,7 +59,7 @@ app.post('/contact',(req,res)=>{
     myData.save().then(()=>{           ///save will return a promise terfore we will have to write .then and eveeyrthig in node js are asynchronous
         req.send("item is save in contact database")
     }).catch(()=>{
-        res.status(400).send("item was not saved in database")
+        res.status(400).send("filled")
     })
 //    res.status(200).render('contact.pug'); 
 }) 
